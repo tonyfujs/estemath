@@ -4,6 +4,8 @@
 #' @param repetitions numeric: Le nombre de multiplications dont on doit trouver la reponse
 #'
 #' @return character
+#' @export
+#'
 
 revise_multiplications <- function(tables = c(1:10),
                                    repetitions = 12) {
@@ -28,7 +30,6 @@ revise_multiplications <- function(tables = c(1:10),
 #' @param vn numeric: vector of numbers to be used for multiplications
 #'
 #' @return logical
-#' @export
 #'
 revise_multiplication <- function(vn) {
 
