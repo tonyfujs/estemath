@@ -45,6 +45,10 @@ revise_multiplication <- function(vn) {
 
   # Check response
   success <- as.numeric(resp) == n1*n2
+  ## Handles empty answers
+  if (is.na(success)) {
+    success <- FALSE
+  }
   if (success) {
     message(sample(c("Bravo!",
                      "Super!",
