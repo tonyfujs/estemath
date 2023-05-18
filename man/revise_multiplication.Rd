@@ -10,7 +10,7 @@ revise_multiplication(vn)
 \item{vn}{numeric: vector of numbers to be used for multiplications}
 }
 \value{
-
+logical
 }
 \description{
 Helper to revise multiplications

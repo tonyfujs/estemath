@@ -12,7 +12,7 @@ revise_multiplications(tables = c(1:10), repetitions = 12)
 \item{repetitions}{numeric: Le nombre de multiplications dont on doit trouver la reponse}
 }
 \value{
-
+character
 }
 \description{
 Aide memoire pour reviser les tables de multiplications
